@@ -14,10 +14,12 @@ margin-top: 7.188rem;
    p{
     text-align: center;
     margin-top: 2.25rem;
+    color: white;
    }
    h1{
     font-size: 2.5rem;
     text-align: center;
+    color: white;
     span{
         color: #4175D0;
     }
@@ -41,7 +43,13 @@ margin-top: 7.188rem;
         font-weight: 600;
         font-size: 1rem;
         line-height: 1.25rem;
+
+        
    }
+   .btn{
+            border: 1px solid #4175D0;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
 }
 
 `

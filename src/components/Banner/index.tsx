@@ -9,7 +9,7 @@ export default function Banner(){
                 <p>Prestamos os seguintes serviços. Segurança privada, consultoria e desevolvimento de software, <br /> reparações e venda de acessórios Informatico, reparações de máquinas hidráulicas, climatização, <br /> limpeza</p>
                 <div className="div-button">
                     <button>SAIBA MAIS </button>
-                    <button>SERVIÇOS</button>
+                    <button className="btn">SERVIÇOS</button>
                 </div>
             </div>
         </Container>

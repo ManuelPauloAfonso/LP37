@@ -6,6 +6,7 @@ export const Container = styled.header`
 margin-top: 2rem;
 border-bottom: 1px solid #29292e;
 height: 5rem;
+
 .bg-img{
     background-image: url(${banner});
     height: 39.688rem;
@@ -26,9 +27,9 @@ nav{
         flex-wrap: wrap;
         li{
             margin-left: 1rem;
+            color: white;
         }
         img{
-            background-color: black;
         }
     }
 }
