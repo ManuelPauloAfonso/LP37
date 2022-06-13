@@ -8,7 +8,6 @@ export default function Homes(){
     return(
         <>
             <Header />
-            <Banner />
             <Info />
             <InfoCard />
         </>
