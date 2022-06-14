@@ -3,7 +3,6 @@ import banner from '../../assets/banner.png'
 
 export const Container = styled.header`
 
-border-bottom: 1px solid #29292e;
 height: 5rem;
 
 
@@ -20,6 +19,7 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 1rem;
 
     ul{
         display: flex;
