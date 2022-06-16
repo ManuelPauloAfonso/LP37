@@ -35,7 +35,7 @@ margin-top: 7.188rem;
         background: #4175D0;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
-        width: 16.625rem;
+        width: 16rem;
         height: 4rem;
         border: none;
         margin-left: 3.813rem;
@@ -44,12 +44,17 @@ margin-top: 7.188rem;
         font-size: 1rem;
         line-height: 1.25rem;
 
+        cursor: pointer;
+
+        &:hover{
+            filter: brightness(0.9);
+        }
+
+       
+
         
    }
-   .btn{
-            border: 1px solid #4175D0;
-            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    }
+
 }
 
 `

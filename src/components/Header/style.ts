@@ -12,6 +12,18 @@ height: 5rem;
 
 
 }
+a{
+    text-decoration: none;
+    color: white;
+
+    cursor: pointer;
+
+        &:hover{
+            filter: brightness(0.9);
+    }
+
+    
+}
 
 
 nav{

@@ -12,7 +12,8 @@ export default function InfoCard(){
     return(
         <Container>
             <div>
-                     <h1>Pratico, facil, moderno <br /><span>você resolve tudo sem <br /> estress 😊 </span></h1>
+                     <h1>Nossos Serviços</h1>
+                     <p className="p">Conheça Todos os Nossos Serviçoes que prestamos com a melhor qualidade</p>
 
             </div>
             <div className="container-card">

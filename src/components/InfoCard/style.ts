@@ -5,11 +5,14 @@ margin-top: 3rem;
 
 h1{
    text-align: center;
-    span{
-        color: #4175D0;
+    color: #4175D0;
+    font-size: 2.5rem;
 
 
-    }
+}
+.p{
+    text-align: center;
+    margin-top: 1rem;
 }
 
 .container-card{

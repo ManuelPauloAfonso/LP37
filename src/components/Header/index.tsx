@@ -12,10 +12,10 @@ export default function Header(){
                 <nav>
                     <img src={Logo} alt="" />
                     <ul>
-                        <li>Quem somos</li>
-                        <li>Serviços</li>
-                        <li>Contacto</li>
-                        <li><img src={Facebook} alt="" /></li>
+                        <li> <a href="">Quem somos</a></li>
+                        <li> <a href="">Serviços</a></li>
+                        <li> <a href="">Contacto</a></li>
+                        <li> <a href=""> <img src={Facebook} alt="" /></a></li>
                     </ul>
                 </nav>
                 <Banner />
