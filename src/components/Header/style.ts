@@ -47,9 +47,5 @@ nav{
     }
 }
 
-@media (max-width: 442px){
-    
-}
-
 
 `
