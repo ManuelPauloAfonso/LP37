@@ -67,6 +67,9 @@ padding: 2rem;
   button{
     display: none;
   }
+  .container-banner{
+    margin-top: -8rem;
+  }
 }
 
 `

@@ -12,6 +12,8 @@ margin-top: 6rem;
 background-image: url(${banner});
 height: 40rem;
 padding: 2rem;
+width: 100%;
+
 
 
 
@@ -48,12 +50,12 @@ form{
         border: none;
     }
     textarea{
-        height: 4rem;
         padding-left: 1rem;
         height: 15rem;
         border-radius: 5px;
         font-weight: 500;
         border: none;
+        width: 28rem;
     }
     button{
         width: 18rem;
@@ -74,6 +76,7 @@ form{
     }
 }
 .container-info{
+    
 
     nav{
         margin-top: 2rem;
@@ -87,6 +90,7 @@ form{
     }
     
 }
+
 @media (max-width: 999px) {
 
     
@@ -94,6 +98,10 @@ form{
 
     .container-info{
         display: none;
+    }
+    form input{
+        width: 100%;
+        
     }
     
 }

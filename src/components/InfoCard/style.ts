@@ -18,6 +18,7 @@ h1{
 .container-card{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 3rem;
     margin-top: 4rem;
@@ -50,9 +51,23 @@ h1{
 
 @media (max-width: 999px) {
 
-    .container-card{
+
+    .container-card .card{
+        display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: 0 auto;
+
+      
+    }
+    .container-card{
+        margin-top: 6rem;
+    }
+    img{
+            margin: auto
+    }
+    div{
+        text-align: center;
     }
     
 }
