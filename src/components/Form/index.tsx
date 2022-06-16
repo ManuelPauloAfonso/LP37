@@ -1,20 +1,36 @@
 import { Container } from "./style"
+import emailjs from '@emailjs/browser';
 
 
 
 export default function Form(){
+
+        function enviarEmail(e:any){
+
+            e.preventDefault();
+
+            emailjs.sendForm('gmailMessage', 'template_8ta8a6d', e.target, '-9RDgUCcjqQftjEOd')
+              .then((result) => {
+                    alert("mensagem enviada com sucesso")                  
+              }, (error) => {
+                 alert(error.message)
+              });
+              e.target.reset();
+
+            
+ };
     return(
         <Container>
             <div className="container-form">
                 <h1>Fale conosco!</h1>
                 <p>Preencha o formulario entrar em <br /> contacto caso prefira envie um email</p>
-                <form action="">
-                    <input type="text" placeholder="digite o seu Nome" />
-                    <input type="text" placeholder="digite o seu email:" />
-                    <textarea name="" placeholder="escreva sua mensagem">
+                <form onSubmit={enviarEmail}>
+                    <input type="text" placeholder="digite o seu Nome" name="name" />
+                    <input type="text" placeholder="digite o seu email:" name="email" />
+                    <textarea placeholder="escreva sua mensagem" name="message">
                     
                     </textarea>   
-                    <button type="button">Enviar</button> 
+                    <button type="submit">Enviar</button> 
                 </form>
             </div>
             <div className="container-info">

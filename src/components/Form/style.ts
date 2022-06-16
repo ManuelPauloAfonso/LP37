@@ -42,7 +42,7 @@ form{
     margin-top: 1rem;
 
     input{
-        width: 28rem;
+        width: 24rem;
         height: 2.500rem;
         padding-left: 1rem;
         border-radius: 5px;
@@ -55,7 +55,7 @@ form{
         border-radius: 5px;
         font-weight: 500;
         border: none;
-        width: 28rem;
+        width: 24rem;
     }
     button{
         width: 18rem;
@@ -99,9 +99,13 @@ form{
     .container-info{
         display: none;
     }
-    form input{
+    form input, textarea{
         width: 100%;
         
+    }
+   
+    .container-form{
+        width: 100%;
     }
     
 }

@@ -28,7 +28,6 @@ img{
 .container-about{
     max-width: 28rem;
     line-height: 2rem;
-    text-align: center;
 }
 button{
     border: none;
@@ -57,6 +56,10 @@ button{
             width: 100%;
             margin-top: 5rem;
         }
+    }
+    .container-about{
+        text-align: center;
+
     }
     
 }
