@@ -4,9 +4,10 @@ import styled from "styled-components";
 export const Container = styled.section`
 
 background-color: #4175D0;
-height: 5.500rem;
+height: 10rem;
 color: white;
 margin-top: 34rem;
+padding: 2rem;
 
 nav{
 
@@ -29,6 +30,18 @@ nav{
         }
 
     }
+}
+
+@media (max-width: 999px) {
+    
+    
+        height: 25rem;
+
+
+    ul{
+        flex-direction: column;
+    }
+    
 }
 
 

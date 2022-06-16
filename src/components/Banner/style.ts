@@ -8,6 +8,8 @@ justify-content: center;
 align-items: center;
 gap: 2.25rem;
 margin-top: 7.188rem;
+padding: 2rem;
+
 
 
 .container-banner{
@@ -55,6 +57,16 @@ margin-top: 7.188rem;
         
    }
 
+}
+@media (max-width: 999px) {
+
+  .div-button{
+      display: none;
+
+  }
+  button{
+    display: none;
+  }
 }
 
 `

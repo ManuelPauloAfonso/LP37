@@ -6,6 +6,7 @@ export const Container = styled.header`
 height: 5rem;
 
 
+
 .bg-img{
     background-image: url(${banner});
     height: 39.688rem;
@@ -45,6 +46,8 @@ nav{
         }
     }
 }
+
+
 
 
 `

@@ -4,10 +4,11 @@ import styled from "styled-components";
 export const Container = styled.section`
 margin-top: 10rem;
 display: flex;
-justify-content: center;
+justify-content: space-evenly;
 flex-wrap: wrap;
 align-items: center;
-gap: 1rem;
+padding: 2rem;
+
 h1{
     color: #4175D0;
     font-size: 2.5rem;
@@ -25,7 +26,7 @@ img{
 
 
 .container-about{
-    max-width: 45rem;
+    max-width: 28rem;
     line-height: 2rem;
 }
 button{
@@ -48,6 +49,16 @@ button{
 
 }
 
+@media (max-width: 999px) {
+
+    div{
+        img{
+            width: 100%;
+            margin-top: 2rem;
+        }
+    }
+    
+}
 
 
 

@@ -6,10 +6,13 @@ export const Container = styled.section`
 display: flex;
 justify-content: center;
 align-items: center;
+flex-wrap: wrap;
 gap: 9rem;
 margin-top: 6rem;
 background-image: url(${banner});
 height: 40rem;
+padding: 2rem;
+
 
 
 
@@ -32,6 +35,7 @@ p{
 form{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 1.5rem;
     margin-top: 1rem;
 
@@ -80,6 +84,16 @@ form{
                 margin-top: 0.500rem;
             }
         }
+    }
+    
+}
+@media (max-width: 999px) {
+
+    
+    
+
+    .container-info{
+        display: none;
     }
     
 }

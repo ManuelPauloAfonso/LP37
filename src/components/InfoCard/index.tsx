@@ -1,6 +1,7 @@
 
 import { Container } from "./style"
 
+
 import img1 from '../../assets/1.svg'
 import img2 from '../../assets/2.svg'
 import img3 from '../../assets/3.svg'

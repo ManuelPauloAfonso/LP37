@@ -4,7 +4,9 @@ export const Container = styled.footer`
 
 background-color: #4175D0;
 color: white;
-height: 8.500rem;
+height: 15rem;
+border: 2rem solid  #4175D0;
+padding: 2rem;
 
 a{
     text-decoration: none;
@@ -28,6 +30,22 @@ nav{
         margin-top: 1rem;
     }
 
+}
+
+@media (max-width: 999px) {
+
+    height: 30rem;
+
+    nav{
+        flex-direction: column;
+        ul{
+            li{
+                text-align: center;
+            }
+        }
+    }
+
+    
 }
 
 

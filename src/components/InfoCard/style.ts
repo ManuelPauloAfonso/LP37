@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
 margin-top: 3rem;
-
+padding: 2rem;
 h1{
    text-align: center;
     color: #4175D0;
@@ -46,6 +46,15 @@ h1{
         }
 
     }
+}
+
+@media (max-width: 999px) {
+
+    .container-card{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
 }
 
 
