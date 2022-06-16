@@ -6,6 +6,7 @@ import Loading from "../../components/Loading";
 import About  from "../../components/About";
 import Form from "../../components/Form";
 import Footer from "../../components/Footer";
+import Wpp from "../../components/Wpp";
 
 
 export default function Homes(){
@@ -16,6 +17,7 @@ export default function Homes(){
             <Info />
             <InfoCard />
             <About />
+            <Wpp />
             <Form />
             <Footer />
         </>

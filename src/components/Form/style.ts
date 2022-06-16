@@ -57,6 +57,7 @@ form{
         border: none;
         width: 24rem;
     }
+
     button{
         width: 18rem;
         height: 2.500rem;
@@ -106,6 +107,10 @@ form{
    
     .container-form{
         width: 100%;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
     }
     
 }

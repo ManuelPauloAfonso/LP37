@@ -1,9 +1,13 @@
 import { Container } from "./style"
 import emailjs from '@emailjs/browser';
+import { useState } from "react";
 
 
 
 export default function Form(){
+
+    const [input, setInput] =  useState('')
+
 
         function enviarEmail(e:any){
 
@@ -26,11 +30,13 @@ export default function Form(){
                 <p>Preencha o formulario entrar em <br /> contacto caso prefira envie um email</p>
                 <form onSubmit={enviarEmail}>
                     <input type="text" placeholder="digite o seu Nome" name="name" />
-                    <input type="text" placeholder="digite o seu email:" name="email" />
+                    <input type="email" placeholder="digite o seu email:" name="email" />
                     <textarea placeholder="escreva sua mensagem" name="message">
                     
-                    </textarea>   
-                    <button type="submit">Enviar</button> 
+                    </textarea> 
+                    <div className="button">
+                         <button type="submit">Enviar</button> 
+                    </div>  
                 </form>
             </div>
             <div className="container-info">
