@@ -4,7 +4,7 @@ import img from '../../assets/img.jpg'
 
 export default function About(){
     return(
-        <Container>
+        <Container id="hero">
             <div className="container-about">
                 <h1>Sobre</h1>
                 <div className="p">

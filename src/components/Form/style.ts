@@ -100,7 +100,7 @@ form{
     .container-info{
         display: none;
     }
-    form input, textarea{
+    form input, form textarea{
         width: 100%;
         
     }

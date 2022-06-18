@@ -11,7 +11,7 @@ import img4 from '../../assets/4.svg'
 
 export default function InfoCard(){
     return(
-        <Container>
+        <Container id="service">
             <div>
                      <h1>Nossos Serviços</h1>
                      <p className="p">Conheça Todos os Nossos Serviçoes que prestamos com a melhor qualidade</p>

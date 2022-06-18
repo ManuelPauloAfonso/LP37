@@ -47,5 +47,13 @@ nav{
     }
 }
 
+@media (max-width: 999px){
+   
+   nav{
+    ul{
+        margin-top: 1rem;
+    }
+   }
+}
 
 `

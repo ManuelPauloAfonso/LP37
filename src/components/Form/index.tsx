@@ -20,8 +20,10 @@ export default function Form(){
             e.preventDefault();
              
             if(input === "" || inputEmail === "" || inputTextarea === ""){
-                alert("por favor preencher todos os campos")
-             }else{
+                    
+                toast.error("por favor preencha todos os campos")
+            
+            }else{
                     emailjs.sendForm('gmailMessage', 'template_8ta8a6d', e.target, '-9RDgUCcjqQftjEOd')
                 .then((result) => {
                      
@@ -36,15 +38,15 @@ export default function Form(){
               }
 };
     return(
-        <Container>
+        <Container id="contact">
             <div className="container-form">
                 <h1>Fale conosco!</h1>
                 <p>Preencha o formulario entrar em <br /> contacto caso prefira envie um email</p>
-                <ToastContainer
-                            position="top-right"
-                            autoClose={5000}
-                           
-                    />
+                    <ToastContainer
+                                position="top-right"
+                                autoClose={5000}
+                            
+                    /> 
                
                 <form onSubmit={enviarEmail}>
                     <input type="text" placeholder="digite o seu Nome" name="name" onChange={(e) => setInput(e.target.value)} /> 
